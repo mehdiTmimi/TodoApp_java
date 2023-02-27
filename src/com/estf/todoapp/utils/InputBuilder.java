@@ -11,6 +11,7 @@ public class InputBuilder extends JPanel{
 	
 	private JLabel label;
 	private JTextField textField;
+	
 	public InputBuilder(String name) {
 		this.name=name;
 		this.setLayout(new FlowLayout());
@@ -29,6 +30,9 @@ public class InputBuilder extends JPanel{
 	}
 	public String getText() {
 		return textField.getText();
+	}
+	public void vider() {
+		textField.setText("");
 	}
 	
 }

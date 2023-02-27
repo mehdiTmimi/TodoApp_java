@@ -19,5 +19,8 @@ public class TodoList extends JPanel{
 			add(new TodoItemPanel(todo,this));
 		}
 	}
+	public void addNewData(Todo todo) {
+		add(new TodoItemPanel(todo,this));
+	}
 	
 }
